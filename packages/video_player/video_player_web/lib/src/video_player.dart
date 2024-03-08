@@ -353,4 +353,9 @@ class VideoPlayer {
     }
     return durationRange;
   }
+
+  /// Returns the [web.HTMLVideoElement] associated with this player
+  web.HTMLVideoElement get videoElement {
+    return _videoElement;
+  }
 }
